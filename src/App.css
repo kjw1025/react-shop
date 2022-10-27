@@ -91,6 +91,7 @@ body {
 .container-item-wrap {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -153,8 +154,4 @@ body {
   background-color: rgb(255, 255, 134);
   padding: 20px 0;
   text-align: center;
-}
-.countBoxClose {
-  display: none;
-  /* visibility: hidden; */
 }

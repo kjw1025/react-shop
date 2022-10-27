@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ItemBox({ i, itemShoes }) {
+export default function ItemBox({ i, itemShoes, key }) {
   return (
     <div className="baseBox itemBox">
       <img src={itemShoes[i].img} alt="신발사진" width="60%" />
