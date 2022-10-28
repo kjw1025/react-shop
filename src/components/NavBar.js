@@ -15,7 +15,7 @@ export default function NavBar() {
           Home
         </li>
         <li>
-          <Link to="/itemDetail">Cart</Link>
+          <Link to="/cart">Cart</Link>
         </li>
         <li>
           <Link to="/event">Event</Link>
